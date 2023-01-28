@@ -1,0 +1,46 @@
+.home-main {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height: calc(100% - 80px);
+}
+
+.jennas {
+  max-width: 30rem;
+  border-radius: 50%;
+  box-shadow: rgb(217, 179, 255) 0px 5px 0px 5px, rgb(228, 200, 255) 0px 16px 0px 5px, rgb(240, 223, 255) 0px 26px 0px 5px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 8rem;
+  width: min(90rem, 100%);
+}
+
+.about-me > h1 {
+  font-size: 25px;
+}
+
+.my-name {
+  margin-block: 2rem;
+  font-size: 70px;
+}
+
+.first-name {
+  color: #8a2be2;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(201, 149, 250);
+
+}
+
+a:visited {
+  color: rgb(93, 12, 170);
+}
